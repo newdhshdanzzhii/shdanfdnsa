@@ -1,4 +1,4 @@
-urlsheet = "https://sheet.best/api/sheets/d84417d3-2c46-4e61-8db4-4b20334d36ae"
+urlsheet = "https://sheet.best/api/sheets/f2312783-1f4e-4365-b434-7bdf7e591c82"
 
 function checkGem()
     return game:GetService("Players").LocalPlayer.PlayerStats.Gem.Value
