@@ -1,0 +1,48 @@
+getgenv().ForceTeam = "Pirates"
+getgenv().ForceTweenSpeed = 100
+getgenv().ForceAutoChest = false
+getgenv().DitBF = {
+    ["Performance"] = {
+        ["Black Screen"] = true,
+        ["Lock FPS"] = 30,
+    },
+    ["Raid if Maxed Blox Fruit"] = true,
+    ["Farm boss drops while not maxed"] = true,
+    ["Farm Blox Fruit Mastery if maxed"] = true,
+    ["Farm method after maxed"] = "Raid Boss Farm - Cake Prince Farm",
+    ["Extra time Farm until unlock skills"] = true,
+    ["Hop Server"] = {
+        ["Type"] = {
+            ["[Main] Server Hop"] = false,
+            ["[Farm] Server Hop if Player nearby"] = false,
+            ["[Sea 3 Quest] Server Hop for 1M+ Blox Fruit"] = false,
+        },
+        ["Delay"] = 0,
+    },
+    ["Do Action"] = {
+        ["Get Godhuman"] = true,
+        ["Get Rengoku"] = true,
+        ["Get True Triple Katana"] = false,
+        ["Get Hallow Scythe"] = false,
+        ["Get Cursed Dual Katana"] = false,
+        ["Get Soul Guitar"] = false,
+        ["Awake Current Blox Fruit"] = true,
+        ["Get Mirror Fractal"] = true,
+    },
+    ["Buy Haki"] = {
+        ["Enhancement"] = true,
+        ["Skyjump"] = true,
+        ["Flash Step"] = true,
+        ["Observation"] = true,
+        ["Legendary Enhancement"] = true,
+    },
+    ["Auto Race"] = "",
+    ["Blox Fruit Sniper"] = {"Kitsune-Kitsune", "Sound-Sound", "Mammoth-Mammoth", "Dough-Dough", "Shadow-Shadow", "Venom-Venom", "Control-Control", "Spirit-Spirit", "Dragon-Dragon", "Leopard-Leopard", "Magma-Magma", "Human-Human: Buddha", "Rumble-Rumble", "Paw-Paw", "Blizzard-Blizzard"},
+    ["Main Blox Fruit"] = {"Kitsune-Kitsune","Mammoth-Mammoth","Leopard-Leopard","Dragon-Dragon","Dough-Dough"},
+    ["Eat Sniper Blox Fruits"] = true,
+    ["Account Panel"] = {
+        ["Enable"] = false,
+        ["Delay"] = 300,
+        ["Note"] = "Sample Text",
+    },
+}
