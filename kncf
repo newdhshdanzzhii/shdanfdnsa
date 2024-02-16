@@ -1,0 +1,50 @@
+_G.KaitunMode = true
+
+-- [[ Setting Buy Melee ]] --
+  _G.Buy_DarkLeg = true
+  _G.Buy_WaterStyle = true
+  _G.Buy_Cyborg = true
+  _G.Buy_DragonClaw = true
+  _G.Buy_Electro = true
+
+-- [[ Setting Config Farm ]] --
+ _G.Select_Weapon_Use = "Katana" 
+ _G.Auto_Farm_Kaitun = true
+ _G.FastFarm = true
+ _G.Have_Bounty = false
+ _G.SkipRedeemCode = false
+
+-- [[ Setting Config Start ]] --
+ _G.Boost_Fps = true
+ _G.Setting_Close_Ui = true
+ _G.WhiteScreen = true
+ _G.Fps_Cap = 30
+
+-- [[ Setting Config Stats ]] --
+_G.Setting_Stats = {
+    ["Melee"] = false,
+    ["Defense"] = true,
+    ["Sword"] = true,
+    ["Fruits"] = false,
+    ["Point"] = 1
+}
+
+-- [[ Setting Config Fruit ]] --
+ _G.SelcetFruits = {
+    'RumbleRumble',
+    'FlameFlame',
+    'MagmaMagma',
+    'LightLight',
+    'GasGas',
+    'IceIce',
+    'SnowSnow',
+    'QuakeQuake',
+    'SpiritSpirit',
+    'PhoenixPhoenix',
+    'DoughDough',
+    'DragonDragon'
+ }
+
+-- [[ Setting Webhook ]] --
+_G.EnabledApiWebhook = false
+_G.ApiWebhookDiscord = "URL-DISCORD"
