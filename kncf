@@ -22,7 +22,7 @@ _G.KaitunMode = true
 
 -- [[ Setting Config Stats ]] --
 _G.Setting_Stats = {
-    ["Melee"] = false,
+    ["Melee"] = true,
     ["Defense"] = true,
     ["Sword"] = true,
     ["Fruits"] = false,
