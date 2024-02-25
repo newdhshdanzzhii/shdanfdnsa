@@ -22,8 +22,8 @@ end
 
 
 function Level()
-    if checkLevel() == 4000 then
-        return "Max LV 4000"
+    if checkLevel() == 4300 then
+        return "Max LV 4300"
     else
         return "Chua Max LV"
     end
@@ -113,7 +113,7 @@ print"working...."
 if game.PlaceId == 6381829480 then
     while wait(30) do
         print"working"
-        if Level() == "Max LV 4000" and World() == "Sea 2" and checkGem() >= 150 then
+        if Level() == "Max LV 4300" and World() == "Sea 2" and checkGem() >= 150 then
             if not isfile("accdone.txt") then writefile("accdone.txt", "godhuman")
                 PostCut(urlsheet, thongtin())
             end
